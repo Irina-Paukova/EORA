@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;display:block;" width="200px" height="16px" viewBox="0 0 100 8" preserveAspectRatio="xMidYMid">
+  <g transform="translate(16.666666666666668 4)">
+    <circle cx="0" cy="0" r="4" fill="#c4c4c4" transform="scale(0.772314 0.772314)">
+      <animateTransform attributeName="transform" type="scale" begin="-0.4s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+    </circle>
+  </g>
+
+  <g transform="translate(33.333333333333336 4)">
+    <circle cx="0" cy="0" r="4" fill="#c4c4c4" transform="scale(0.498509 0.498509)">
+      <animateTransform attributeName="transform" type="scale" begin="-0.3s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+    </circle>
+  </g>
+
+  <g transform="translate(50 4)">
+    <circle cx="0" cy="0" r="4" fill="#c4c4c4" transform="scale(0.225087 0.225087)">
+      <animateTransform attributeName="transform" type="scale" begin="-0.2s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+    </circle>
+  </g>
+
+  <g transform="translate(66.66666666666667 4)">
+    <circle cx="0" cy="0" r="4" fill="#c4c4c4" transform="scale(0.031578 0.031578)">
+      <animateTransform attributeName="transform" type="scale" begin="-0.1s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+    </circle>
+  </g>
+
+  <g transform="translate(83.33333333333333 4)">
+    <circle cx="0" cy="0" r="4" fill="#c4c4c4" transform="scale(0.0328336 0.0328336)">
+      <animateTransform attributeName="transform" type="scale" begin="0s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+    </circle>
+  </g>
+</svg>

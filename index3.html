@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"   http-equiv="content-type" name="viewport" content="width=device-width, initial-scale=1.0, text/html; charset=utf-8">
+	<title>EORA 1</title>
+	<link rel="stylesheet" href="css/style3.css">
+
+    <title>Кнопка "Вверх"</title>
+  
+  <style>
+  #topNubex {
+    position: fixed;
+    left: 45px;
+    bottom: 45px;
+   }
+  </style>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+</head>
+<body>
+   
+   <div id="topNubex"><img src="svg/scroll-top-btn.svg" width="50px" height="50px" /></div>
+
+	<header class="welcome">
+
+		<div class="container-welcome">
+			<div class="container-welcome-logo">
+				<a href="https://eora.ai/" class="welcome-logo-link">
+  		            <svg class="welcome-logo" viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="120" height="47.8049" fill="url(#pattern0)"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0" transform="scale(0.00199203 0.00500041)"/>
+                        </pattern>
+                        <image id="image0" width="502" height="200" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfYAAADICAYAAAAa7MPVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTAzLTE1VDEwOjQ1OjAxKzAzOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMC0wMy0xNVQxMDo1MzoyNiswMzowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMC0wMy0xNVQxMDo1MzoyNiswMzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NzQzZmU3MS1lYjBiLTQ0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"/>
+                        </defs>
+  		            </svg>
+                </a>
+	        </div>
+         <div class="container-welcome-title-button">
+	        <div class="container-welcome-title">
+     	          <h1 class="welcome-title">
+                    <span class="title title1">Улучшение видео</span> 
+                    <span class="title title2">Загрузить можно видео в формате mp4, avi, mov до 100 Мб</span> 
+                    <span class="title title2">Обработка занимает некоторое время, наберитесь терпения:)</span> 
+                </h1>
+            </div>  
+
+<div class="reset-video-container">
+
+              <video class="myvideo" controls="controls" poster="video/duel.jpg">
+                <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+              </video>
+
+              
+             <a class="reset" href="index2.html"> 
+              <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z" fill="#FFCC33"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 2C7.73478 2 7.48043 2.10536 7.29289 2.29289C7.10536 2.48043 7 2.73478 7 3V4H13V3C13 2.73478 12.8946 2.48043 12.7071 2.29289C12.5196 2.10536 12.2652 2 12 2H8ZM15 4V3C15 2.20435 14.6839 1.44129 14.1213 0.87868C13.5587 0.31607 12.7956 0 12 0H8C7.20435 0 6.44129 0.31607 5.87868 0.87868C5.31607 1.44129 5 2.20435 5 3V4H3C2.44772 4 2 4.44772 2 5V19C2 19.7957 2.31607 20.5587 2.87868 21.1213C3.44129 21.6839 4.20435 22 5 22H15C15.7957 22 16.5587 21.6839 17.1213 21.1213C17.6839 20.5587 18 19.7957 18 19V5C18 4.44772 17.5523 4 17 4H15ZM4 6V19C4 19.2652 4.10536 19.5196 4.29289 19.7071C4.48043 19.8946 4.73478 20 5 20H15C15.2652 20 15.5196 19.8946 15.7071 19.7071C15.8946 19.5196 16 19.2652 16 19V6H4Z" fill="#FFCC33"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 9C8.55228 9 9 9.44771 9 10V16C9 16.5523 8.55228 17 8 17C7.44772 17 7 16.5523 7 16V10C7 9.44771 7.44772 9 8 9Z" fill="#FFCC33"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 9C12.5523 9 13 9.44771 13 10V16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16V10C11 9.44771 11.4477 9 12 9Z" fill="#FFCC33"/>
+            </svg>
+
+             </a>
+           
+         </div>
+	    </div>
+
+	</header>
+
+   <footer class="footer">
+
+            <div class="logo-services-copyrighting">
+
+              <div class="container-footer-logo">
+                <a href="https://eora.ai/" class="footer-logo-link">
+                      <svg width="200" height="50" viewBox="0 0 502 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M71.4529 194.691L72.1267 195.082C83.0675 201.427 100.853 201.437 111.812 195.082L164.096 164.762C175.037 158.418 183.939 143.025 183.939 130.405V99.9222V69.4391C183.939 56.8089 175.055 41.437 164.096 35.082L111.812 4.76238C100.871 -1.58222 83.0856 -1.5927 72.1267 4.76238L19.8428 35.082C8.90198 41.4265 0 56.8338 0 69.4715V70.8812C0 75.0852 3.00473 76.7687 6.60867 74.7002L33.8587 59.0599C37.5082 56.9653 42.1878 58.2307 44.2947 61.8587L48.1348 68.4707C50.249 72.1111 48.9858 76.7708 45.3061 78.8828L12.1583 97.9081C8.48191 100.018 7.20053 104.654 9.33 108.321L17.0014 121.53C19.1158 125.171 23.8172 126.407 27.4406 124.328L50.7243 110.964C54.3753 108.868 59.0562 110.133 61.1632 113.761L65.0032 120.373C67.1174 124.013 65.8439 128.679 62.2205 130.759L38.9368 144.122C35.2858 146.218 34.025 150.842 36.1544 154.509L43.8258 167.718C45.9402 171.359 50.6313 172.601 54.311 170.489L87.4587 151.464C91.1352 149.354 95.8366 150.607 97.9436 154.235L101.784 160.847C103.898 164.487 102.659 169.133 99.0037 171.231L71.4557 187.042C67.7937 189.144 67.795 192.57 71.4529 194.691Z" fill="#FAC337"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M283.655 64.7619L279.823 76.1905H252.937V95.2381H275.977V106.667H252.937V125.714H279.823L283.655 137.143H237.588V64.7619H283.655ZM357.827 115.375C356.085 119.799 353.62 123.627 350.434 126.859C347.247 130.091 343.414 132.613 338.933 134.425C334.452 136.237 329.473 137.143 323.996 137.143C318.553 137.143 313.59 136.237 309.109 134.425C304.628 132.613 300.786 130.091 297.583 126.859C294.38 123.627 291.899 119.799 290.14 115.375C288.381 110.951 287.501 106.143 287.501 100.952C287.501 95.7613 288.381 90.9539 290.14 86.5301C291.899 82.1062 294.38 78.2783 297.583 75.0461C300.786 71.8139 304.628 69.2918 309.109 67.4799C313.59 65.6679 318.553 64.7619 323.996 64.7619C327.647 64.7619 331.083 65.1782 334.302 66.0107C337.522 66.8432 340.476 68.0186 343.165 69.5367C345.853 71.0548 348.268 72.8994 350.409 75.0706C352.55 77.2417 354.367 79.6658 355.861 82.3429C357.355 85.0201 358.491 87.9258 359.271 91.06C360.051 94.1942 360.441 97.4917 360.441 100.952C360.441 106.143 359.57 110.951 357.827 115.375ZM323.971 125.714C337.546 125.714 344.885 114.628 344.885 100.952C344.885 87.2768 337.546 76.1905 323.971 76.1905C310.397 76.1905 302.733 87.2768 302.733 100.952C302.733 114.628 310.397 125.714 323.971 125.714ZM387.038 110.413V137.143H371.71V76.1905L368.836 64.7619H394.163C398.534 64.7619 421.527 64.7619 421.527 87.619C421.527 101.905 411.012 106.053 408.114 106.667C410.031 107.143 427.275 137.143 427.275 137.143H411.947C411.947 137.143 398.534 110.413 392.786 110.413H387.038ZM387.038 79.0476V99.0476H395.525C398.025 99.0476 408.114 98.1905 408.114 87.619C408.114 77.0476 400.426 76.1905 395.525 76.1905H386.08L387.038 79.0476ZM502 137.143H486.672L480.924 118.095H454.099L448.351 137.143H433.023L459.847 64.7619H475.176L502 137.143ZM456.973 107.619L460.805 106.667H477.092L467.511 76.1905L456.973 107.619Z" fill="white"/>
+                        <path d="M490.134 47.036H488.315V52H486.7V40.287H489.777C491.239 40.287 492.344 40.5647 493.092 41.12C493.851 41.6753 494.231 42.5027 494.231 43.602C494.231 44.418 494.021 45.081 493.602 45.591C493.183 46.101 492.548 46.4863 491.698 46.747L494.86 52H492.939L490.134 47.036ZM489.947 45.795C490.797 45.795 491.437 45.625 491.868 45.285C492.299 44.9337 492.514 44.3727 492.514 43.602C492.514 42.8767 492.293 42.3553 491.851 42.038C491.42 41.7093 490.723 41.545 489.76 41.545H488.315V45.795H489.947Z" fill="white"/>
+                        <circle cx="490" cy="46" r="10" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </a>
+              </div>
+        
+                <div class="container-services">
+                    <ul class="services">
+                        <li class="service-item">
+                            <a class="service-link service-link-facebook" href="https://www.facebook.com/EORA.ru/">
+                                <div class="services-img">
+                                    <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                      <desc>Facebook</desc>
+                                        <path style="fill:#d8d8d8;" d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z"></path>
+                                    </svg>
+                                </div>
+                             </a>    
+                        </li>   
+                        <li class="service-item">
+                            <a class="service-link service-link-youtube" href="https://www.youtube.com/channel/UCnF8mXIAkBinFVAu7RVgKyA">
+                                <div class="services-img">
+                                    <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                              <desc>Youtube</desc>
+                              <path style="fill:#d8d8d8;" d="M24 0.0130005C37.248 0.0130005 47.987 10.753 47.987 24C47.987 37.247 37.247 47.987 24 47.987C10.753 47.987 0.0130005 37.247 0.0130005 24C0.0130005 10.753 10.752 0.0130005 24 0.0130005ZM35.815 18.093C35.565 16.756 34.452 15.758 33.173 15.635C30.119 15.439 27.054 15.28 23.995 15.278C20.936 15.276 17.882 15.432 14.828 15.625C13.544 15.749 12.431 16.742 12.182 18.084C11.898 20.017 11.756 21.969 11.756 23.92C11.756 25.871 11.898 27.823 12.182 29.756C12.431 31.098 13.544 32.21 14.828 32.333C17.883 32.526 20.935 32.723 23.995 32.723C27.053 32.723 30.121 32.551 33.173 32.353C34.452 32.229 35.565 31.084 35.815 29.747C36.101 27.817 36.244 25.868 36.244 23.919C36.244 21.971 36.101 20.023 35.815 18.093ZM21.224 27.435V20.32L27.851 23.878L21.224 27.435Z"></path>
+                                    </svg>
+                                </div>
+                            </a>    
+                        </li>   
+                    </ul>
+                </div>
+                <div class="copyrighting">
+                    <span class="copyright-content"  href="#0">2014 - 2020 ООО "Зен Солюшнс"</span>
+                    <span class="copyright-content"  href="#0">2018 - 2020 ООО "ЕОРА Дата Лаб"</span>
+                </div>
+            </div>
+        
+            <nav class="footer-component nav-mail">
+                <h3 class="titles mail-title">контакты</h3>
+                <a class="mailto-link" href="mailto:hello@eora.ru">hello@eora.ru</a>
+            </nav>
+
+
+        <div class="footer-components">
+            
+            <div class="footer-component container-products">
+                <h3 class="titles products-title">продукты и студии</h3>
+                <ul class="products">
+                    <li class="products-item">
+                        <a class="products-link products-link-onechat" href="https://eora.ru/onechat">One Chat</a>
+                    </li>
+                    <li class="products-item">
+                        <a class="products-link products-link-visionhab" href="https://eora.ai/visionhuben">Vision Hub</a>
+                    </li>
+                    <li class="products-item">
+                        <a class="products-link products-link-system" href="https://eora.ai/recommendationsystem">Рекомендательная система</a>
+                    </li>
+                    <li class="products-item">
+                        <a class="products-link products-link-dialogsystems" href="https://eora.ai/dialogsystems">Dialog Systems</a>
+                    </li>
+                    <li class="products-item">
+                        <a class="products-link products-link-datalab" href="https://eora.ai/datalab">Data Lab</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-component container-aboutus">
+                <h3 class="titles aboutus-title">о нас</h3>
+                <ul class="aboutus">
+                    <li class="aboutus-item">
+                        <a class="aboutus-link" href="https://yadi.sk/i/f8lism-FRzcfog">Портфолио</a>
+                    </li>
+                    <li class="aboutus-item">
+                        <a class="aboutus-link" href="https://eora.ai/AICommunity">All Community</a>
+                    </li>
+                    <li class="aboutus-item">
+                        <a class="aboutus-link" href="https://eora.ai/blog">Блог</a>
+                    </li>
+                        <li class="aboutus-item">
+                        <a class="aboutus-link" href="https://career.habr.com/companies/eora-ai">Вакансии</a>
+                    </li>
+                    <li class="aboutus-item">
+                        <a class="aboutus-link" href="https://eora.ai/contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+
+    </footer>
+
+</body>
