@@ -1,0 +1,174 @@
+
+.welcome {
+  background-image: url("../images/image 2.png");
+}
+
+.welcome-title {
+  width: 100%;
+}
+
+.container-welcome-title-button {
+  margin: 18vh auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.result {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.result-text {
+ font-size: 2.5em;
+ font-weight: 700;
+}
+
+.resultvideo {
+  display: block;
+  text-align: center;
+}
+
+.result-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.download-result {
+  margin: 0 10% 0 0;
+}
+
+@media (max-width: 640px) {
+  .resultvideo {
+    width: 70%;
+    height: 20vw;
+    margin: 20% auto;
+  }
+
+  .result-text {
+    font-size: 2.0em;
+}
+
+.result {
+  margin: 20% 0 0 0;
+}
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .resultvideo {
+    width: 60%;
+    height: 22vw;
+    margin: 7% auto 17%;
+  }
+}
+
+@media (min-width: 961px) {
+  .resultvideo {
+    width: 65%;
+    height: 28vw;
+    margin: 7% auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-result-button {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10%;
+  width: 100%;
+  border: 2px double black;
+}
+
+.container-result-button-download {
+  background-color: black;
+}
+
+.container-result-button-newvideo {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.result-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.result-button {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container-result-button:hover {
+  background: #ffcc33;
+  border: 2px double #ffcc33;
+}
+
+.container-result-button-newvideo:hover {
+  background: #000000;
+  color: #ffffff;
+  border: 2px double #000000;
+}
+
+.container-result-button-download {
+  padding: 11.5% 17%;
+}
+
+.result-button-download {
+  margin: 0 10% 0 -5%; 
+}
+
+@media (max-width: 640px) {
+  .result-button {
+    font-size: 1.1em;
+  }
+
+  .result-buttons {
+  width: 50%;
+  display: block;
+   margin: 0 10% 0 21%;
+}
+
+.container-result-button-download {
+  padding: 11.5% 10%;
+}
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .result-button {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 961px) {
+  .result-button {
+    font-size: 1.7em;
+  }
+}

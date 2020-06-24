@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" http-equiv="content-type" name="viewport" content="width=device-width, initial-scale=1.0, text/html; charset=utf-8">
   <title>EORA 1</title>
-  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="css/style6.css">
   <link rel="stylesheet" href="css/common.css">
 
   <title>Кнопка "Вверх"</title>
@@ -58,62 +58,17 @@
           </h1>
         </div>
 
-        <div class="reset-video-container">
-
-          <video class="myvideo" controls="controls" poster="video/duel.jpg">
-            <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-          </video>
-
-          <a class="reset" href="index2.html">
-            <img src="images/reset.png">
-          </a>
-
+        <div class="error-container">
+        	<span class="error">Размер видео > 100 Мб</span>
+        	<span class="error">Пожалуйста, выберите видео меньшего размера</span>
         </div>
-      </div>
 
-      <div class="container-changeoptions">
-
-        <div class="container-checkbox">
-
-        </div>
+        <a href="index2.html" class="welcome-button">
+          <div class="container-welcome-button">Выбрать видео </div>
+        </a>
 
       </div>
-
-      <form class="container-changeoptions">
-
-        <div class="changeoptions-contant">
-
-          <div class="changeoptions-title">Как улучшить видео?</div>
-
-          <div class="checkboxs">
-            <input type="checkbox" class="custom-checkbox" id="changeoptions1" name="changeoptions" value="yes">
-            <label for="changeoptions1">раскрасить</label>
-          </div>
-
-          <div class="checkboxs">
-            <input type="checkbox" class="custom-checkbox" id="changeoptions2" name="changeoptions" value="yes">
-            <label for="changeoptions2">4К</label>
-          </div>
-
-          <div class="checkboxs">
-            <input type="checkbox" class="custom-checkbox" id="changeoptions3" name="changeoptions" value="yes">
-            <label for="changeoptions3">60 fps</label>
-          </div>
-
-          <div class="checkboxs">
-            <input type="checkbox" class="custom-checkbox" id="changeoptions4" name="changeoptions" value="yes">
-            <label for="changeoptions4">все сразу</label>
-          </div>
-
-          <div class="container-submit">
-            <div class="submit">преобразить
-              <input class="file-submit-block-input" onchange="document.location.href = 'index4.html'" type="submit" id="submit" />
-            </div>
-          </div>
-
-        </div>
-
-      </form>
+    </div>
 
   </header>
 
