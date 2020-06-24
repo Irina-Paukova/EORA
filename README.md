@@ -5,3 +5,4 @@
 Условно можно поставить галочку только на 4к или только на 60фпс или сразу на все.
 ## С меня фронт проекта
 https://www.figma.com/file/FBkDXUWG9hnGtTmufaZHWf/EORA?node-id=158%3A13 - макеты на фигме
+https://emotions.visionhub.ru/ - однотипный сервис 
