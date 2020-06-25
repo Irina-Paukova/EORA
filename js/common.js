@@ -1,18 +1,12 @@
-script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+let nubex = document.getElementById("topNubex");
+let anchor = document.querySelector(".title.title1");
 
-
-    $(function() {
-      $(window).scroll(function() {
-        if ($(this).scrollTop() != 0) {
-          $('#topNubex').fadeIn();
-        } else {
-          $('#topNubex').fadeOut();
-        }
-      });
-      $('#topNubex').click(function() {
-        $('body,html').animate({
-          scrollTop: 0
-        }, 700);
-      });
-    });
- 
+nubex.addEventListener("click", () =>
+  anchor.scrollIntoView(false, { behavior: "smooth" })
+);
+window.addEventListener(
+  "scroll",
+  () =>
+    (nubex.style.opacity =
+      window.scrollY / (document.body.scrollHeight - window.innerHeight))
+);

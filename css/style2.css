@@ -11,18 +11,6 @@
   margin: 18vh auto 15vh;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .file-load-block-input {
   opacity: 0;
   filter: alpha(opacity=0);
@@ -47,7 +35,7 @@
   display: block;
   background-color: black;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .welcome-button {
